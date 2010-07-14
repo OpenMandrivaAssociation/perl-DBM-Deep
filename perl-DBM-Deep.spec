@@ -1,5 +1,5 @@
 %define upstream_name    DBM-Deep
-%define upstream_version 1.0021
+%define upstream_version 1.0025
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
