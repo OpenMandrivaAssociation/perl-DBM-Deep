@@ -1,15 +1,15 @@
 %define upstream_name    DBM-Deep
-%define upstream_version 2.0009
+%define upstream_version 2.0011
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 2.0009
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A pure perl multi-level hash/array DBM that supports transactions
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DBM/DBM-Deep-2.0009.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/DBM/DBM-Deep-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Digest::MD5)
@@ -92,4 +92,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Nov 17 2009 cpan2dist 1.0014-1mdv
 - initial mdv release, generated with cpan2dist
+
 
