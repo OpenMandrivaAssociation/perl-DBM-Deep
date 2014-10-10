@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	A pure perl multi-level hash/array DBM that supports transactions
 License:	GPL+ or Artistic
